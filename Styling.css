@@ -1,0 +1,49 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+.page-holder {
+    min-height: 100vh;
+}
+
+.bg-cover {
+    background-size: cover !important;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px white;
+    border: 1px solid white;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.unbordered--cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.btn {
+    font-size: 20px;
+}
+
+#drag {cursor: none;}

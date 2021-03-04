@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Boter, kaas en eieren</title>
+    <script src="Logic.js"></script>
+    <link href="Styling.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" rel="stylesheet">
+</head>
+<body>
+<div class="page-holder bg-cover"
+     style="background: url(https://i.postimg.cc/ZnHTP71s/aircraft-airplane-boat-1575833.jpg)">
+
+    <div class="container py-5 text-white">
+        <header class="text-center py-5">
+            <h1 class="game--title display-4 font-weight-bold mb-4">Boter, kaas en eieren</h1>
+            <h2 class="game--status"></h2>
+        </header>
+
+        <div class="game--container">
+            <div class="cell" data-cell-index="0"></div>
+            <div class="cell" data-cell-index="1"></div>
+            <div class="cell" data-cell-index="2"></div>
+            <div class="cell" data-cell-index="3"></div>
+            <div class="cell" data-cell-index="4"></div>
+            <div class="cell" data-cell-index="5"></div>
+            <div class="cell" data-cell-index="6"></div>
+            <div class="cell" data-cell-index="7"></div>
+            <div class="cell" data-cell-index="8"></div>
+        </div>
+
+        <div class="game--container">
+            <div class="cell hidden"></div>
+            <div class="row-cols-6 unbordered--cell" draggable="true" id="drag--cell">X</div>
+            <div class="cell hidden"></div>
+        </div>
+
+
+        <div class="game--container">
+            <button class="btn btn-danger game--restart">Speel opnieuw</button>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
