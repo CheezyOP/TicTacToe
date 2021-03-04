@@ -50,9 +50,14 @@ module.exports = {
             filename: '[name]-[contenthash].css'
         }),
 
-        new HtmlPlugin({
-            filename: 'UI.html',
-            template: 'UI.html',
+        // new HtmlPlugin({
+        //     filename: 'Ui.html',
+        //     template: 'Ui.html',
+        // }),
+
+        new HtmlWebpackPlugin({
+            template: 'Ui.html',
+            filename: 'Ui.html'
         }),
 
         new ScriptExtHtmlWebpackPlugin({

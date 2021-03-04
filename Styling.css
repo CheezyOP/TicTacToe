@@ -1,5 +1,11 @@
 body {
     font-family: "Arial", sans-serif;
+    position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
 }
 
 .page-holder {
